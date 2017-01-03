@@ -1,0 +1,19 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+<div class="content">
+  <div class="shit-container">
+  {% for shit in shits %}
+  <div class="shit">
+    <div class="shit-title">{{ shit.title }}</div>
+    <hr>
+    <div class="shit-body">
+{{ shit.body }}
+    </div>
+    <br><br>
+    <div class="shit-date">{{ shit.time }}</div>
+  </div>
+  {% endfor %}
+  </div>
+</div>
+{% endblock %}

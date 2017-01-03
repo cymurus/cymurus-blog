@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cy Murus. - {{ title }}</title>
+    <script src='/static/javascripts/script.js'></script>
+    <link rel='stylesheet' href='/static/stylesheets/style.css' />
+    <!-- <link rel='stylesheet' href='/vendor/font-awesome-4.7.0/css/font-awesome.min.css' /> -->
+  </head>
+  <body>
+    {% block header %}
+      {% include 'header.twig' %}
+    {% endblock %}
+    {% block body %}
+    {% endblock %}
+    <a id="top-backer" href="javascript:void(0);">➤</a>
+    {% block footer %}
+      {% include 'footer.html' %}
+    {% endblock %}
+  </body>
+</html>
