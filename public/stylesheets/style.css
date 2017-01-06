@@ -1,5 +1,12 @@
 /*-------global-------*/
 
+.error {
+  margin: 0 auto;
+  color: #eeeeee;
+  display: block;
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
