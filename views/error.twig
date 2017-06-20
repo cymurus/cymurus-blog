@@ -2,4 +2,6 @@
 
 {% block body %}
   <h1 class="error">{{message}}</h1>
+  <h3 class="error">{{error.status}}</h3>
+  <h3 class="error">{{error.stack}}</h3>
 {% endblock %}

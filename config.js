@@ -1,5 +1,5 @@
 var conf = {
-	root: ".",
+  root: "/var/www/cymurus.cc/blog",
   data: 'trashes'
 };
 

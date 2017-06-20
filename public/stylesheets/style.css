@@ -1,10 +1,9 @@
 /*-------global-------*/
 
 .error {
-  margin: 0 auto;
   color: #eeeeee;
-  display: block;
   width: 100%;
+  text-align: center;
 }
 
 * {
